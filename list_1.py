@@ -11,4 +11,9 @@ for fruit in fruits:
 
 print()
 
+if 'Apple' in fruits:
+    print('Yes')
+    print()
 
+if 'Banana' not in fruits:
+    print('Banana is not this fruits list')
